@@ -1,7 +1,9 @@
-package aaa
+package main
 
-import "fmt"
+import (
+	"github.com/golanghu/aaa/myserver"
+)
 
 func main(){
-	fmt.Printf("hello world\n")
+	myserver.Run()
 }
