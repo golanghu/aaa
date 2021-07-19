@@ -1,7 +1,7 @@
-package myserver
+package server
 
 import "fmt"
 
 func Run(){
-	fmt.Sprintf("hello world\n")
+	fmt.Println("hello world\n")
 }
